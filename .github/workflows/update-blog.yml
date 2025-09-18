@@ -1,0 +1,35 @@
+name: Update Blog List
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily 06:00 UTC
+  workflow_dispatch: {}
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch RSS and update README
+        run: |
+          FEED="<YOUR_RSS_FEED_URL>"
+          TMP=".latest.md"
+          echo "- (coming soon)" > "$TMP"
+          if [ -n "$FEED" ]; then
+            curl -fsSL "$FEED" | awk '
+              /<item>/,/<\/item>/ {
+                if ($0 ~ /<title>/) { gsub(/.*<title>|<\/title>.*/, ""); t=$0 }
+                if ($0 ~ /<link>/)  { gsub(/.*<link>|<\/link>.*/, ""); l=$0 }
+                if ($0 ~ /<\/item>/) { print "  - [" t "](" l ")" }
+              }
+            ' | head -n 5 > "$TMP" || true
+          fi
+          awk -v r="$(cat "$TMP")" '
+            BEGIN{p=1}
+            /<!-- The list below will be updated by .github\/workflows\/update-blog.yml -->/ {print; getline; print r; p=0; next}
+            {if(p)print}
+          ' README.md > README.new && mv README.new README.md
+      - name: Commit changes
+        run: |
+          git config user.name "readme-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md && git commit -m "chore: update latest blog posts" || echo "no changes"
+          git push
