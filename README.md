@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Misha Naumenko — Software Engineer, research enthusiast" />
+  <img src="./assets/banner.svg" alt="Michael Naumenko — Software Engineer, research enthusiast" />
 </p>
 
-<h1 align="center">Misha Naumenko</h1>
+<h1 align="center">Michael Naumenko</h1>
 <p align="center">
   <strong>Software Engineer, research enthusiast</strong><br/>
   Leipzig, Germany
