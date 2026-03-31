@@ -1,4 +1,4 @@
-# Michael Naumenko
+# Mykhailo Naumenko
 
 Software Engineer focused on **distributed systems**, **real-time data**, **backend infrastructure**, and **applied AI**.
 
