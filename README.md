@@ -1,132 +1,173 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="Michael Naumenko — Software Engineer, research enthusiast" />
-</p>
+# Mykhailo Naumenko
 
-<h1 align="center">Michael Naumenko</h1>
-<p align="center">
-  <strong>Software Engineer, research enthusiast</strong><br/>
-  Leipzig, Germany
-</p>
+Software Engineer focused on **distributed systems**, **real-time data**, **backend infrastructure**, and **applied AI**.
 
-<p align="center">
-  <a href="https://github.com/<GITHUB_USERNAME>">GitHub</a> •
-  <a href="#">Website</a> •
-  <a href="mailto:naumenko.research@gmail.com">Email</a> •
-  <a href="https://linkedin.com/in/naumenko-fullstack">LinkedIn</a>
-</p>
+Leipzig, Germany  
+[GitHub](https://github.com/mikhail2574) · [LinkedIn](https://www.linkedin.com/in/naumenko-fullstack/) · [Email](mailto:naumenko.research@gmail.com)
 
 ---
 
-### About me
+## What this GitHub contains
 
-- Dream since 14: **study and collaborate with MIT**.  
-- Early-stage **research enthusiast** exploring **Software Design in Distributed Systems** and **Real-Time Data** with practical use of **AI**.  
-- Currently **working at BitCtrl Systems GmbH** and **studying Software Engineering & AI at American University Kyiv**.  
-- I value clear invariants, observability, and reproducible engineering.
+This profile is a public record of:
 
-### Currently learning
+- selected project work,
+- completed course tracks,
+- backend and API exercises,
+- AI and agent prototypes,
+- public non-NDA engineering artifacts.
 
-- Deep-diving into **Distributed Systems** (consensus, replication, failure detectors, end-to-end backpressure).  
-- Goal by New Year: publish a **big distilled summary** + a **capstone project** derived from my notes and lab work.
-
----
-
-## Featured Projects (public / non-NDA)
-
-> These are representative learning and portfolio repos. I’ll extend them as I go.
-
-1) **mit-6.5840-notes-labs** — Notes, labs, and exam prep for **MIT 6.5840 Distributed Systems**.  
-   _Focus:_ correctness, failure testing, and measurements.  
-   **Stack:** Go (course labs), Markdown notes, test harnesses.  
-   **Repo:** <https://github.com/<GITHUB_USERNAME>/mit-6.5840-notes-labs>
-
-2) **streaming-iot-starter** — Boilerplate for **real data ingestion** (MQTT → Kafka) with basic metrics.  
-   **Stack:** TypeScript, Docker, Kafka, MQTT, Prometheus, Grafana.  
-   **Repo:** <https://github.com/<GITHUB_USERNAME>/streaming-iot-starter>
-
-3) **ai-experiments-playground** — Small experiments applying **AI** to systems problems (summarizers, anomaly hints).  
-   **Stack:** Python, TypeScript, notebooks, tiny services.  
-   **Repo:** <https://github.com/<GITHUB_USERNAME>/ai-experiments-playground>
-
-4) **realtime-3d-map-sandbox** — Minimal **Three.js** + **Next.js** sandbox for rendering live telemetry.  
-   **Stack:** Next.js, Three.js, WebSockets.  
-   **Repo:** <https://github.com/<GITHUB_USERNAME>/realtime-3d-map-sandbox>
+I care most about **correctness**, **clear invariants**, **observability**, and building systems that stay understandable as they grow.
 
 ---
 
-## Skills & Tools
+## Highlighted Repositories
 
-**Core:** C# · JavaScript/TypeScript · Python  
-**Frontend:** React · Next.js · Three.js  
-**Backend:** Nest.js · ASP.NET  
-**Data/Streaming:** Kafka · MQTT · Docker containers · MongoDB · SQL · AWS S3 · DuckDB  
-**Observability:** Grafana · Prometheus · cAdvisor · node-exporter · JMX
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/mikhail2574/MIT-6.824-Distributed-Systems">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=MIT-6.824-Distributed-Systems" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/mikhail2574/SDT-212-final">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=SDT-212-final" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mikhail2574/SDT-212-4-ticket-reservation">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=SDT-212-4-ticket-reservation" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/mikhail2574/sdt-208-6-fastapi-core">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=sdt-208-6-fastapi-core" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mikhail2574/sdt-101-final">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=sdt-101-final" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/mikhail2574/fullstackopen">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=fullstackopen" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-**Languages:** English · German (C1) · Ukrainian/Russian (bilingual) · French (A2)
+### Why these repos
 
-<p>
-  <!-- badges (dark theme friendly) -->
-  <img src="https://img.shields.io/badge/C%23-239120?logo=.net&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASP.NET-512BD4?logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/MQTT-660066?logo=eclipsemosquitto&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white" />
-</p>
-
----
-
-## Writing & Blog
-
-I plan to cross-post technical notes from my portfolio site.  
-- **Latest posts** (auto-updated via GitHub Action):  
-  <!-- The list below will be updated by .github/workflows/update-blog.yml -->
-  - (coming soon)
-
----
-
-## Speaking / CFP
-
-- **Dec 2025** — BitCtrl Systems training (internal).  
-- **July 2026** — WeAreDevelopers presentation (topic: real-time data & distributed systems).
-
----
-
-## Stats
-
-<p>
-  <!-- switch username + theme to your taste -->
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mikhail2574&show_icons=true&count_private=true&theme=dark" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=mikhail2574&theme=dark" />
-</p>
-
----
-
-## Collaboration
-
-No problem — reach out via <a href="https://linkedin.com/in/naumenko-fullstack">LinkedIn</a> or  
-<a href="mailto:naumenko.research@gmail.com">naumenko.research@gmail.com</a>.  
-I’m especially interested in **Distributed Systems**, **Real-Time Data**, and **AI** work.
+- **MIT-6.824-Distributed-Systems** — distributed systems labs and notes in Go.
+- **SDT-212-final** — AI tutor Chrome extension / applied LLM product work.
+- **SDT-212-4-ticket-reservation** — polished frontend/full-stack demo with Next.js and testing.
+- **sdt-208-6-fastapi-core** — backend/API work with FastAPI and Python.
+- **sdt-101-final** — Java desktop CRUD app with custom data structures and algorithms.
+- **fullstackopen** — structured progression through a serious full-stack course track.
 
 ---
 
-### Roadmap (high-level)
+## Course Tracks
 
-```mermaid
-gantt
-  title 2025–2026 Roadmap
-  dateFormat  YYYY-MM-DD
-  section Distributed Systems
-  MIT 6.5840 labs & notes     :active, 2025-09-01, 2025-12-31
-  Capstone project (derived)  :         2026-01-01, 2026-03-15
-  section Writing
-  Publish distilled summary   :         2025-12-01, 2026-01-20
-  Blog series (3–5 posts)     :         2026-01-21, 2026-03-31
-  section Speaking
-  BitCtrl training            :         2025-12-01, 2025-12-31
-  WeAreDevelopers prep        :         2026-04-01, 2026-07-01
+### MIT Courses
+
+#### MIT 6.824 / Distributed Systems
+- Repo: [MIT-6.824-Distributed-Systems](https://github.com/mikhail2574/MIT-6.824-Distributed-Systems)
+- Focus: distributed systems fundamentals, labs, notes, and implementation work in Go.
+
+#### MITx MicroMasters
+- Repo:
+
+#### MIT Deep Learning
+- Repo:
+
+### React / Frontend Track
+
+Selected public repos from React and frontend coursework:
+
+- [sdt-210-final](https://github.com/mikhail2574/sdt-210-final)
+- [sdt-210-8](https://github.com/mikhail2574/sdt-210-8)
+- [sdt-210-5](https://github.com/mikhail2574/sdt-210-5)
+- [sdt-210-4](https://github.com/mikhail2574/sdt-210-4)
+- [SDT-212-4-ticket-reservation](https://github.com/mikhail2574/SDT-212-4-ticket-reservation)
+
+### Backend / API Track
+
+Selected public repos from backend and API coursework:
+
+- [sdt-208-6-fastapi-core](https://github.com/mikhail2574/sdt-208-6-fastapi-core)
+- [fullstackopen](https://github.com/mikhail2574/fullstackopen)
+
+### AI / Agent / Applied LLM Track
+
+Selected public repos from AI-oriented coursework and experiments:
+
+- [SDT-212-final](https://github.com/mikhail2574/SDT-212-final)
+- [sdt-212-10](https://github.com/mikhail2574/sdt-212-10)
+
+### Java / OOP / Data Structures Track
+
+Selected public repos from Java coursework:
+
+- [sdt-101-final](https://github.com/mikhail2574/sdt-101-final)
+- [sdt-101-7](https://github.com/mikhail2574/sdt-101-7)
+- [sdt-101-hw-6](https://github.com/mikhail2574/sdt-101-hw-6)
+- [sdt-101-5](https://github.com/mikhail2574/sdt-101-5)
+- [sdt-101-3](https://github.com/mikhail2574/sdt-101-3)
+- [SDT101-2-gui-io](https://github.com/mikhail2574/SDT101-2-gui-io)
+
+---
+
+## Selected Work by Theme
+
+### Distributed Systems
+- replication, coordination, correctness, failure handling
+- implementation-heavy coursework and notes in Go
+- growing public track around systems thinking and engineering fundamentals
+
+### Backend and APIs
+- FastAPI and Python API work
+- practical full-stack backend exercises
+- focus on clean structure, validation, and maintainable service code
+
+### Frontend and Product Engineering
+- React, Next.js, TypeScript, Tailwind CSS
+- interactive UI work, demo flows, testing, and product polish
+- selected experiments include 3D/web visual elements where useful
+
+### Applied AI
+- AI tutor and agent-oriented coursework
+- practical LLM integration rather than AI for its own sake
+- interest in systems where AI improves real workflows and products
+
+---
+
+## Notes
+
+- Some larger product work lives in separate organizations or team repositories and is therefore not mirrored here.
+- This profile focuses on **public** work only.
+
+---
+
+## Current Focus
+
+Right now I am most interested in:
+
+- distributed systems,
+- real-time data systems,
+- backend engineering,
+- applied AI with real product value.
+
+---
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/naumenko-fullstack/)
+- [Email](mailto:naumenko.research@gmail.com)
+
