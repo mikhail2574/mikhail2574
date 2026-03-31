@@ -1,4 +1,4 @@
-# Mykhailo Naumenko
+# Michael Naumenko
 
 Software Engineer focused on **distributed systems**, **real-time data**, **backend infrastructure**, and **applied AI**.
 
@@ -23,53 +23,43 @@ I care most about **correctness**, **clear invariants**, **observability**, and 
 
 ## Highlighted Repositories
 
-<table>
-  <tr>
-    <td>
-      <a href="https://github.com/mikhail2574/MIT-6.824-Distributed-Systems">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=MIT-6.824-Distributed-Systems" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/mikhail2574/SDT-212-final">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=SDT-212-final" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/mikhail2574/SDT-212-4-ticket-reservation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=SDT-212-4-ticket-reservation" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/mikhail2574/sdt-208-6-fastapi-core">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=sdt-208-6-fastapi-core" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/mikhail2574/sdt-101-final">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=sdt-101-final" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/mikhail2574/fullstackopen">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikhail2574&repo=fullstackopen" />
-      </a>
-    </td>
-  </tr>
-</table>
+These are the repositories I would start with if you want the fastest overview of my public work.
 
-### Why these repos
+### 1) Distributed Systems
+- **[MIT-6.824-Distributed-Systems](https://github.com/mikhail2574/MIT-6.824-Distributed-Systems)**  
+  Labs, notes, and implementation work around distributed systems fundamentals in Go.  
+  **Focus:** replication, coordination, correctness, failure handling  
+  **Stack:** Go
 
-- **MIT-6.824-Distributed-Systems** — distributed systems labs and notes in Go.
-- **SDT-212-final** — AI tutor Chrome extension / applied LLM product work.
-- **SDT-212-4-ticket-reservation** — polished frontend/full-stack demo with Next.js and testing.
-- **sdt-208-6-fastapi-core** — backend/API work with FastAPI and Python.
-- **sdt-101-final** — Java desktop CRUD app with custom data structures and algorithms.
-- **fullstackopen** — structured progression through a serious full-stack course track.
+### 2) Applied AI / Product Work
+- **[SDT-212-final](https://github.com/mikhail2574/SDT-212-final)**  
+  AI tutor / Chrome extension project with product thinking, backend integration, and usage logic.  
+  **Focus:** applied LLM workflows, product engineering, integration  
+  **Stack:** TypeScript, React, Supabase, OpenAI
+
+### 3) Frontend / Full-Stack UI Engineering
+- **[SDT-212-4-ticket-reservation](https://github.com/mikhail2574/SDT-212-4-ticket-reservation)**  
+  Polished Next.js project with testing and a more complete frontend engineering setup.  
+  **Focus:** UI architecture, interaction quality, testing, product polish  
+  **Stack:** Next.js, TypeScript, Tailwind, Vitest, Playwright
+
+### 4) Backend / API Engineering
+- **[sdt-208-6-fastapi-core](https://github.com/mikhail2574/sdt-208-6-fastapi-core)**  
+  Backend/API coursework showing service structure, routing, and clean Python API foundations.  
+  **Focus:** API design, maintainable backend structure, Python service work  
+  **Stack:** Python, FastAPI
+
+### 5) Java / Data Structures / OOP
+- **[sdt-101-final](https://github.com/mikhail2574/sdt-101-final)**  
+  JavaFX CRUD application with persistence and algorithmic components.  
+  **Focus:** OOP, data structures, sorting/searching, desktop application structure  
+  **Stack:** Java, JavaFX
+
+### 6) Long-Form Course Progression
+- **[fullstackopen](https://github.com/mikhail2574/fullstackopen)**  
+  Structured progression through a serious full-stack course track.  
+  **Focus:** disciplined execution across multiple parts of a large curriculum  
+  **Stack:** JavaScript, TypeScript, React, Node.js
 
 ---
 
@@ -83,9 +73,11 @@ I care most about **correctness**, **clear invariants**, **observability**, and 
 
 #### MITx MicroMasters
 - Repo:
+- Focus: coursework and notes to be linked publicly.
 
 #### MIT Deep Learning
 - Repo:
+- Focus: coursework and notes to be linked publicly.
 
 ### React / Frontend Track
 
@@ -170,4 +162,3 @@ Right now I am most interested in:
 
 - [LinkedIn](https://www.linkedin.com/in/naumenko-fullstack/)
 - [Email](mailto:naumenko.research@gmail.com)
-
